@@ -1,0 +1,6 @@
+"model","correction_constant","freq_significant_id","freq_significant_id_c"
+"karlinsky",1.38,"31 (60.8\%)","23 (45.1\%)"
+"linear",1.39,"30 (58.8\%)","22 (43.1\%)"
+"who",5.24,"47 (92.2\%)","22 (43.1\%)"
+"negbin",1.013,"24 (47.1\%)","23 (45.1\%)"
+"negbin_lin_trend",1.41,"29 (56.9\%)","22 (43.1\%)"
