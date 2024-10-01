@@ -1,24 +1,41 @@
-# COVID_excess_mortality
-Replication files for the working paper titled "The unwarranted and misleading precision of excess mortality estimates" by Javier Cortes, Juan Diaz, Eduardo Engel, and Alejandro Jofre.
+# COVID-19 Excess Mortality Replication Files
 
-There are four folders in the repository:
+This repository contains the replication files for the working paper titled *"The Unwarranted and Misleading Precision of Excess Mortality Estimates"* by Javier Cortes, Juan Diaz, Eduardo Engel, and Alejandro Jofre.
 
-- Code: Contains all code to reproduce the results from the paper, from the data wrangling to the tables.
-- Figures: Contains the figures in the paper.
-- Input data: Contains all pre-processed death count and reported death data.
-- Output data: Contains
-  1. All the processed death counts and reported COVID deaths.
-  2. All the predictions, bootstrapped and resampled values from the cross-validation procedure and from the excess death computations.
-- Tables: Contains the tables presented in the paper.
+## Repository Structure
 
-The suggested order to replicate the findings of the paper is as follows:
-1. Run every script from the /Code/Data wrangling/ folder.
-   - These scripts transform the pre-processed death count and reported death data.
-2. Run every script from the /Code/Cross-validation/ folder.
-   - These scripts perform the cross-validation procedure, saving the results from each iteration into the /Output data/Cross-validation data/ folder.
-3. Run every script from the /Code/Excess death/ folder.
-   - These scripts perform the excess death computation, saving the results into the /Output data/Excess death data/ folder.
-4. Run every script from the /Code/Tables and statistics/ folder.
-   - These scripts produce the tables from the paper.
-5. Run every script from the /Code/Tables and statistics/ folder.
-   - These scripts produce the figures from the paper.
+The repository is organized into the following folders:
+
+- **Code**: Includes all scripts required to reproduce the paper's results, ranging from data wrangling to generating tables and figures.
+- **Figures**: Stores all the figures included in the paper.
+- **Input Data**: Contains pre-processed data on death counts and reported COVID-19 deaths.
+- **Output Data**: This folder contains:
+  1. Processed death count data and reported COVID-19 deaths.
+  2. Predictions, bootstrapped and resampled values from the cross-validation procedure, and excess death computations.
+- **Tables**: Stores all tables presented in the paper.
+
+## Replication Instructions
+
+To replicate the results of the paper, follow the steps below in the suggested order:
+
+### 1. Data Wrangling
+- Run all scripts located in the `/Code/Data_wrangling/` folder.
+- These scripts transform the pre-processed death count and reported death data for further analysis.
+
+### 2. Cross-Validation
+- Execute all scripts from the `/Code/Cross-validation/` folder.
+- These scripts run the cross-validation procedure, saving results for each iteration in the `/Output_data/Cross-validation_data/` folder.
+
+### 3. Excess Death Calculation
+- Run the scripts from the `/Code/Excess_death/` folder.
+- These scripts compute the excess death estimates, saving the results in the `/Output_data/Excess_death_data/` folder.
+
+### 4. Tables
+- Execute the scripts from the `/Code/Tables_and_statistics/` folder to generate the tables used in the paper.
+
+### 5. Figures
+- Run the scripts from the same `/Code/Tables_and_statistics/` folder to produce the figures presented in the paper.
+
+---
+
+Following these steps will allow you to fully replicate the analysis and results presented in the paper.
